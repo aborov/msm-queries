@@ -1,0 +1,3 @@
+<h1>Youngest director</h1>
+
+The youngest director in our dataset right now is <%= link_to @the_youngest.name, "/directors/#{@the_youngest.id}" %>, born on <%= @the_youngest.dob.strftime("%B %d, %Y") %>.
